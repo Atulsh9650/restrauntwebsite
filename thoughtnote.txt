@@ -1,0 +1,21 @@
+1)first i created my index page
+in index page i choose my brand name as FlavorFiesta Bistro and then i create maindiv which contains other follwing divs
+first it was diificult to centre the miidle div then i used flexbox in main background so that i can align item as i want
+i choose flex direction as colums as i wanted divs stacked.
+i made item div flex row which contains other pages link as well
+i also added hover event so that when user click on it then it changes color and text size.
+i also added one logo for my website asw well which i positioned using absolute.
+
+2)second i made menu page
+this page was little diificult  to make
+i first added header which contains other pages link and also added hover event to the link
+i made another css file to style and linked that too
+used linear gradient to make background image for food-items div
+i used display grid propery to align all my food items boxes
+i created 5 columns for food items using grid-template-columns property
+i also added hover event to food name so when user clicks on it it shows different color and size
+
+3)then i made aboutus and contactus page
+in both pages i added headers and user various font family and gradient colors to make it look good
+i used form in contact us page  and set it in middle by using position absolute.
+i also used list in about us page to make headings and font family,text-decorations property as well

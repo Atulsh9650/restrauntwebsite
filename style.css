@@ -1,0 +1,33 @@
+.header {
+    margin-top: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    background-color:rgb(156, 37, 37);
+    border: 2px solid black;
+}
+
+.item {
+    flex: 0 0 auto; 
+    margin-right: 5px; 
+    text-align: center;
+    padding: 10px; 
+    
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.item:hover{
+    background-color: rgb(91, 17, 17);
+    
+}
+.item a:hover{
+    font-weight: bolder;
+    
+}

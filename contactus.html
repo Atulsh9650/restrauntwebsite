@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: linear-gradient(rgb(78, 36, 78), rgb(75, 34, 41));
+            color: antiquewhite;
+            
+        }
+        .contact {
+            text-align: center;
+            border: 2px solid black;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: grey;
+            border-radius: 5px;
+        }
+
+        .form {
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            width: 50%;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: grey;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="file"] {
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: rgb(221, 171, 171);
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="item"><a href="index.html">Home Page</a></div>
+        <div class="item"><a href="Aboutus.html">About Us</a></div>
+        <div class="item"><a href="menu.html">Menu</a></div>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="form">
+        <form method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="attachment">Attach File:</label>
+            <input type="file" id="attachment" name="attachment">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

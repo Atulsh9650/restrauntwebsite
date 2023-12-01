@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+        margin: 0;
+        height: 100vh;
+    }
+
+    .offerimage {
+        margin-top: 10px; 
+        height: 40%;
+        width: 100%;
+    }
+    .offerimage img{
+        height: 100%;
+        width: 100%;
+    }
+    .time{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        height: 6%;
+        background-color: rgb(156, 37, 37) ;
+        text-align: center;
+        font-weight: bolder;
+        color: beige;
+    }
+
+   .food-items {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background-image: linear-gradient(rgb(54, 13, 54), pink);
+        gap: 10px;
+        
+    }
+
+    .fitems {
+        width: 80%; 
+        height: 100%; 
+        padding: 10px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .fitems img {
+        width: 100%;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    .foodname {
+        text-align: center;
+        margin-top: 6%;
+        border: 2px solid black;
+        background-color: antiquewhite;
+        width: 100%; 
+    }
+    .foodname:hover {
+        margin-top: 8%;
+        background-color:violet;
+        font-weight: bolder;
+        color: black;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="header">
+                <div class="item"><a href="index.html">Home Page</a></div>
+                <div class="item"><a href="contactus.html">Contact Us</a></div>
+                <div class="item"><a href="Aboutus.html">About Us</a></div>
+    </div>
+
+    <div class="offerimage"><img src="foodimages/food-offer.jpg" alt="offer"></div>
+
+    <div class="time"><h3>BREAKFAST</h3></div>
+    <div class="food-items">
+       <div class="fitems"> 
+            <img src="foodimages/dosa.jpg" alt="dosa">
+            <div class="foodname">Dosa ₹150</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/idli.jpeg" alt="idli">
+            <div class="foodname">Idli ₹50</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/poha.jpeg" alt="poha">
+            <div class="foodname">Poha ₹100</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/upma.jpeg" alt="upma">
+            <div class="foodname">Upma ₹80</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/pie.jpeg" alt="pie">
+            <div class="foodname">Pie ₹150</div>  
+       </div>
+    </div>
+
+    <div class="time"><h3>LUNCH</h3></div>
+    <div class="food-items">
+       <div class="fitems"> 
+            <img src="foodimages/curry.jpeg" alt="chicken curry">
+            <div class="foodname">Chicken Curry ₹250</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/dal.jpeg" alt="dal">
+            <div class="foodname">Dal makhni ₹250</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/panner.jpeg" alt="panner">
+            <div class="foodname">Shahi Panner ₹300</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/wrap.jpeg" alt="wrap">
+            <div class="foodname">Panner wrap ₹150</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/soya.jpeg" alt="soya">
+            <div class="foodname">Soya Chaap ₹250</div>  
+       </div>
+    </div>
+    
+    <div class="time"><h3>DINNER</h3></div>
+    <div class="food-items">
+       <div class="fitems"> 
+            <img src="foodimages/palak.jpeg" alt="palakpanner">
+            <div class="foodname">Palak Panner ₹350</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/butter.jpeg" alt="butter">
+            <div class="foodname">Butter Chicken ₹450</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/rajma.jpeg" alt="rajma">
+            <div class="foodname">Rajma Chawal ₹150</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/tikka.jpeg" alt="pannertikka">
+            <div class="foodname">Pannertikkamasala ₹150</div>  
+       </div>
+       <div class="fitems"> 
+            <img src="foodimages/biryani.jpeg" alt="biryani">
+            <div class="foodname">Chicken Biryani ₹100</div>  
+       </div>
+    </div>
+</body>
+</html>

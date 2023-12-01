@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorFiesta Bistro</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+        }
+
+        .maindiv {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-background {
+            width: 100%;
+            height: 100%;
+            background-image: url('mainbackground.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            order: -1;
+        }
+        .middleimage {
+            background-image: url('download.jpg');
+            background-repeat: no-repeat;
+            height: 60vh;
+            width: 50%;
+            border: 1px solid black;
+            opacity:0.8;
+        }
+
+        .items {
+            margin-top: 0px;
+            width: 50%;
+            height: 4%;
+            align-items: center;
+            display: flex;
+            gap: 10% 0%;
+            background-color: grey;
+        }
+        .item {
+            height: 100%;
+            flex: 1;
+            border: 2px solid black;
+            border-radius: 10%;
+            text-align: center;
+            
+
+        }
+        .item a {
+            text-decoration: none;
+            color: black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            
+        }
+        .item:hover{
+            
+            background-color: rgb(151, 37, 37);
+        }
+        .item a:hover{
+            font-size: 20px;
+        }
+        @media (max-width: 800px) {
+          
+            .middleimage {
+                width: 80%;
+            }
+
+            .items{
+                width: 80%;
+            }
+            .item a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="main-background">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <div class="middleimage"></div>
+            <div class="items">
+                <div class="item"><a href="menu.html">Our Menu</a></div>
+                <div class="item"><a href="contactus.html">Contact Us</a></div>
+                <div class="item"><a href="Aboutus.html">About Us</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
